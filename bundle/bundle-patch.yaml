@@ -484,6 +484,9 @@ patch:
     - name: RELATED_IMAGE_ODH_WORKBENCH_CODESERVER_MINIMAL_CPU_PY312_IMAGE
       value: quay.io/opendatahub/odh-workbench-codeserver-minimal-cpu-py312@sha256:f75ef237a126ac51cc925ed90a02464a3474cfb88ec083740cccaa296fcaa526
       component: odh-workbench-codeserver-minimal-cpu-py312
+    - name: RELATED_IMAGE_ODH_KSERVE_KUEUE_CONTROLLER_IMAGE
+      value: quay.io/opendatahub/odh-kserve-kueue-controller@sha256:7d4ee930c41c14baa4e5bef0af4e3f37a6bdb3aef90a465d05605dc619404f1c
+      component: odh-kserve-kueue-controller
   additional-related-images:
     file: additional-images-patch.yaml
   additional-fields:
