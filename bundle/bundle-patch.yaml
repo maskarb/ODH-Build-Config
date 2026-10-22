@@ -487,6 +487,9 @@ patch:
     - name: RELATED_IMAGE_ODH_KSERVE_KUEUE_CONTROLLER_IMAGE
       value: quay.io/opendatahub/odh-kserve-kueue-controller@sha256:7d4ee930c41c14baa4e5bef0af4e3f37a6bdb3aef90a465d05605dc619404f1c
       component: odh-kserve-kueue-controller
+    - name: RELATED_IMAGE_ODH_MCP_LIFECYCLE_MODULE_OPERATOR_E2E_IMAGE
+      value: quay.io/opendatahub/odh-mcp-lifecycle-module-operator-e2e@sha256:cae9b3c1e5d6d31aaec3ed9ea2ae13d4431574194493bbe9706d7cdb3c0684b2
+      component: odh-mcp-lifecycle-module-operator-e2e
   additional-related-images:
     file: additional-images-patch.yaml
   additional-fields:
